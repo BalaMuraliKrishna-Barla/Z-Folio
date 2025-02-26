@@ -2,7 +2,7 @@ import "./style.css";
 import Typed from "typed.js";
 
 document.querySelector("#app").innerHTML = `
-      <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll pt-20">
+    <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll pt-20">
     
         <main>
             <!-- Header -->
@@ -70,8 +70,9 @@ document.querySelector("#app").innerHTML = `
                         Murali Krishna Barla
                     </h1>
                     <!-- Profile Image -->
-                    <img src="profile.png" alt="Hero Image" class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg 
-                               md:ml-10 lg:ml-10 xl:ml-10">
+                    <img src="./public/profile.png" alt="Hero Image" class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg 
+                               md:ml-10 lg:ml-20 xl:ml-28">
+
                 </div>
     
                 <!-- Right Side (Typed Text, Description, Social Links) -->
@@ -356,7 +357,7 @@ document.querySelector("#app").innerHTML = `
                 <h1 class="dark:text-gray-100 mb-16 text-5xl font-bold tracking-tight ">Contact</h1>
                 <div id="block" class="flex justify-center items-center">
     
-                    <form action="https://formspree.io/f/mvoejjvq" method="POST">
+                    <form action="https://formspree.io/f/xanqgzle" method="POST">
                         <input type="hidden" name="access_key" value="ad73a3b2-ca2f-45bc-918a-5c642ff8ebf7" />
     
                         <div
