@@ -72,7 +72,7 @@ document.querySelector(
                     </h1>
                     <!-- Profile Image -->
                     <img src="./public/profile.png" alt="Hero Image" class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg 
-                                   md:ml-10 lg:ml-20 xl:ml-28">
+                                       md:ml-10 lg:ml-20 xl:ml-14">
     
                 </div>
     
@@ -153,13 +153,12 @@ document.querySelector(
                     <div id="cards" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 px-4 sm:px-10 lg:px-20">
                         <!-- Project 1-->
                         <div id="block"
-                            class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-103 transition-transform">
-                            <img class="p-4 rounded-3xl" src="/recipe.png" alt="Recipe Finder">
-                            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Recipe Finder</h1>
-                            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Quickly generate
-                                tasty recipes based on available ingredients.</p>
+                            class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 p-2 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-103 transition-transform">
+                            <!-- <img class="p-4 rounded-3xl" src="/recipe.png" alt="NexChat"> -->
+                            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">NexChat</h1>
+                            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Real-time Chat Application.</p>
                             <div class="flex mt-4 mx-5 mb-5">
-                                <a href="https://recipe-finder-pbl.netlify.app/" target="_blank"
+                                <a href="nexchat.html" target="_blank"
                                     class="bg-gray-900 dark:bg-gray-100 items-center hover:scale-110 transition-transform transform text-white dark:text-black flex gap-2 p-3 rounded-md font-medium">Website
                                     <svg width="25" height="25" viewBox="0 0 15 15" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -168,7 +167,7 @@ document.querySelector(
                                             fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
-                                <a href="https://github.com/Murali Krishna-Kolekar/Recipe-finder" target="_blank"
+                                <a href="https://github.com/BalaMuraliKrishna-Barla/NexChat" target="_blank"
                                     class="bg-gray-900  items-center hover:scale-110 transition-transform transform dark:bg-gray-100 text-white dark:text-black flex gap-2 p-3 rounded-md font-medium ml-5">Github
                                     <svg class="fill-white dark:fill-black" width="22" height="22" viewBox="0 0 15 15"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -182,13 +181,12 @@ document.querySelector(
     
                         <!-- Project 2-->
                         <div id="block"
-                            class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
-                            <img class="p-4 rounded-3xl" src="/learnorbit.png" alt="Learn Orbit">
-                            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Learn Orbit</h1>
-                            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Learn new
-                                technologies with quality roadmaps, resources and project.</p>
+                            class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 p-2 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
+                            <!-- <img class="p-4 rounded-3xl" src="/learnorbit.png" alt="minimiZer"> -->
+                            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">minimiZer</h1>
+                            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">AI powered text summarization tool.</p>
                             <div class="flex mt-4 mx-5 mb-5">
-                                <a href="https://learn-orbit.vercel.app/" target="_blank"
+                                <a href="https://minimiZer.onrender.com" target="_blank"
                                     class="bg-gray-900 dark:bg-gray-100 items-center hover:scale-110 transition-transform transform text-white dark:text-black flex gap-2 p-3 rounded-md font-medium">Website
                                     <svg width="25" height="25" viewBox="0 0 15 15" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -197,7 +195,7 @@ document.querySelector(
                                             fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
-                                <a href="https://github.com/Murali Krishna-Kolekar/LearnOrbit.git" target="_blank"
+                                <a href="https://github.com/BalaMuraliKrishna-Barla/AI-Summarizer" target="_blank"
                                     class="bg-gray-900 dark:bg-gray-100 items-center  text-white hover:scale-110 transition-transform transform dark:text-black flex gap-2 p-3 rounded-md font-medium ml-5">Github
                                     <svg class="fill-white dark:fill-black" width="22" height="22" viewBox="0 0 15 15"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -211,13 +209,12 @@ document.querySelector(
     
                         <!-- Project 3-->
                         <div id="block"
-                            class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
-                            <img class="p-4 rounded-3xl" src="/zeon.png" alt="ZEON">
-                            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">ZEON</h1>
-                            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Manage all your IT
-                                assets at one place efficiently.</p>
+                            class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 p-2 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
+                            <!-- <img class="p-4 rounded-3xl" src="/zeon.png" alt="Persona"> -->
+                            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Persona</h1>
+                            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Automated Cloud Backup Service System.</p>
                             <div class="flex mt-4 mx-5 mb-5">
-                                <a href="https://zeon-vault.vercel.app" target="_blank"
+                                <a href="persona.html" target="_blank"
                                     class="bg-gray-900 items-center  dark:bg-gray-100 hover:scale-110 transition-transform transform border-2  text-white dark:text-black flex gap-2 p-3 rounded-md font-medium">Website
                                     <svg width="25" height="25" viewBox="0 0 15 15" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +223,7 @@ document.querySelector(
                                             fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
-                                <a href="https://github.com/Murali Krishna-Kolekar/Zeon.git" target="_blank"
+                                <a href="https://github.com/BalaMuraliKrishna-Barla/Persona" target="_blank"
                                     class="bg-gray-900  items-center hover:scale-110 transition-transform transform dark:bg-gray-100 text-white dark:text-black flex gap-2 p-3 rounded-md font-medium ml-5">Github
                                     <svg class="fill-white dark:fill-black" width="22" height="22" viewBox="0 0 15 15"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -278,7 +275,7 @@ document.querySelector(
                             <h1 class="dark:text-gray-100 m-3 text-2xl sm:text-4xl font-bold tracking-tight mb-4">
                                 Programming Languages & Tools</h1>
                             <div class="flex flex-wrap gap-3 px-2 sm:px-5 pt-3 sm:pt-6 items-center">
-
+    
                                 <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=java"
                                     alt="Java">
                                 <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=python"
@@ -311,12 +308,13 @@ document.querySelector(
                             <h1 class="dark:text-gray-100 m-3 text-2xl sm:text-4xl font-bold tracking-tight mb-4">
                                 Web Dev & Libraries</h1>
                             <div class="flex flex-wrap gap-3 px-2 sm:px-5 pt-3 sm:pt-6 items-center">
-
+    
                                 <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=html"
                                     alt="HTML">
                                 <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=css"
                                     alt="CSS">
-                                <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=javascript" alt="javascript">
+                                <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=javascript"
+                                    alt="javascript">
                                 <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=react"
                                     alt="react">
                                 <img class="w-8 h-8 sm:w-16 sm:h-16 mb-5" src="https://skillicons.dev/icons?i=bootstrap"
@@ -333,7 +331,7 @@ document.querySelector(
                                     alt="mysql">
                             </div>
                         </div>
-
+    
     
                     </div>
                 </div>
