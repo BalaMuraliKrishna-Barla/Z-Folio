@@ -70,7 +70,7 @@ document.querySelector("#app").innerHTML = `
                         Murali Krishna Barla
                     </h1>
                     <!-- Profile Image -->
-                    <img src="./public/profile.png" alt="Hero Image" class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg 
+                    <img src="profile.png" alt="Hero Image" class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg 
                                md:ml-10 lg:ml-10 xl:ml-10">
                 </div>
     
@@ -484,7 +484,6 @@ document.querySelector("#app").innerHTML = `
     </div>
 `;
 
-
 document.addEventListener("DOMContentLoaded", function () {
   var themeToggleBtn = document.getElementById("theme-toggle");
   var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
@@ -492,7 +491,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Ensure theme icons are not null before modifying them
   if (themeToggleDarkIcon && themeToggleLightIcon) {
-    // Check user preference for theme  
+    // Check user preference for theme
     if (
       localStorage.getItem("color-theme") === "dark" ||
       (!("color-theme" in localStorage) &&
