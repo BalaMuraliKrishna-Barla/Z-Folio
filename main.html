@@ -1,8 +1,12 @@
-import "./style.css";
-import Typed from "typed.js";
-
-document.querySelector("#app").innerHTML = `
-      <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll pt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll pt-20">
     
         <main>
             <!-- Header -->
@@ -71,7 +75,8 @@ document.querySelector("#app").innerHTML = `
                     </h1>
                     <!-- Profile Image -->
                     <img src="./public/profile.png" alt="Hero Image" class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg 
-                               md:ml-10 lg:ml-10 xl:ml-10">
+                               md:ml-10 lg:ml-20 xl:ml-28">
+
                 </div>
     
                 <!-- Right Side (Typed Text, Description, Social Links) -->
@@ -482,65 +487,5 @@ document.querySelector("#app").innerHTML = `
             Krishna</p>
     
     </div>
-`;
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  var themeToggleBtn = document.getElementById("theme-toggle");
-  var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
-  var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
-
-  // Ensure theme icons are not null before modifying them
-  if (themeToggleDarkIcon && themeToggleLightIcon) {
-    // Check user preference for theme  
-    if (
-      localStorage.getItem("color-theme") === "dark" ||
-      (!("color-theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.documentElement.classList.add("dark");
-      themeToggleDarkIcon.classList.add("hidden");
-      themeToggleLightIcon.classList.remove("hidden");
-    } else {
-      document.documentElement.classList.remove("dark");
-      themeToggleDarkIcon.classList.remove("hidden");
-      themeToggleLightIcon.classList.add("hidden");
-    }
-
-    // Theme Toggle Button Click Event
-    themeToggleBtn.addEventListener("click", function () {
-      themeToggleDarkIcon.classList.toggle("hidden");
-      themeToggleLightIcon.classList.toggle("hidden");
-
-      // Toggle dark mode
-      document.documentElement.classList.toggle("dark");
-
-      if (document.documentElement.classList.contains("dark")) {
-        localStorage.setItem("color-theme", "dark");
-      } else {
-        localStorage.setItem("color-theme", "light");
-      }
-    });
-  }
-
-  // Typed.js Text Animation
-  var typed = new Typed("#typed", {
-    strings: ["Student • Tech Enthusiast • Software Engineer"],
-    typeSpeed: 50,
-    backSpeed: 25,
-    loop: true,
-    showCursor: true,
-    cursorChar: "|",
-    contentType: "html",
-  });
-
-  // Mobile Menu Toggle
-  const toggleMenuButton = document.getElementById("toggle-menu-button");
-  const menu = document.getElementById("menu");
-
-  if (toggleMenuButton && menu) {
-    toggleMenuButton.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
-  }
-});
+</body>
+</html>

@@ -2,6 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @keyframes appear {
   from {
     opacity: 0.5;
@@ -252,4 +257,16 @@
   padding: 0;
   border: none;
   cursor: pointer;
+}
+
+#theme-toggle {
+  position: relative;
+  right: 0;
+  /* Prevents pushing too far */
+  margin-left: auto;
+  /* Ensures it stays aligned properly */
+  padding: 8px 12px;
+  border-radius: 6px;
+  z-index: 50;
+  /* Keeps it above other elements */
 }
