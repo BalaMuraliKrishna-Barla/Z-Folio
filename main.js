@@ -1,9 +1,15 @@
 import "./style.css";
 import Typed from "typed.js";
 
-document.querySelector(
-  "#app"
-).innerHTML = `    <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll pt-20">
+document.querySelector("#app").innerHTML = ` 
+    <div id="loader">
+        <div class="loader-animation">
+            <span class="letter">M</span>
+            <span class="letter">K</span>
+        </div>
+    </div>
+
+    <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll pt-20">
     
         <main>
             <!-- Header -->
@@ -528,4 +534,21 @@ document.addEventListener("DOMContentLoaded", function () {
       menu.classList.toggle("hidden");
     });
   }
+  
 });
+
+
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
+
+  setTimeout(() => {
+    loader.style.opacity = "0";
+    loader.style.transition = "opacity 0.6s ease-in-out";
+  }, 2000); // Fades out before hiding
+
+  setTimeout(() => {
+    loader.remove(); // Completely removes from DOM after fade-out
+  }, 3000);
+});
+
+
